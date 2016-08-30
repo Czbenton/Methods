@@ -24,7 +24,7 @@ public class Archery {
             }
         }
         public boolean isArrowsValid(int a){  //refactored code from setArrows. Now all logic can be done in one location and easily re-used
-            return (a <15) && (a > 4);
+            return (a <15 && a > 4);
         }
 
         public void setBow(String b){
