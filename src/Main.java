@@ -61,9 +61,6 @@ public class Main {
         System.out.println(score.getScore());
 
 
-
-
-
 /* This section commented out for setter/getter lesson
        System.out.println("Today I am going to an archery shoot with my " +family2.age+ " year old " +family2.relation+" and my "
         +family.age+ " year old " +family.relation+".\n");
