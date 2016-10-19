@@ -5,8 +5,8 @@ public class Main {
 
 
         Archery archery = new Archery(12, "Bear Kodiak Magnum Recurve", "Three Rivers rear facing quiver");
-        Car car = new Car(2,2010,"ford escape",2.5);
-        Family family = new Family(28,"sister");
+        Car car = new Car(2, 2010, "ford escape", 2.5);
+        Family family = new Family(28, "sister");
         String[] flavors = {"blueberry", "strawberry", "vanilla"};
         IceCream iceCream = new IceCream(flavors, "small", "medium", "large", 5);
         Score score = new Score(80, 10, false, true);
@@ -23,7 +23,7 @@ public class Main {
         System.out.println("relationship line1: " + family.getRelation());
         System.out.println("relationship line2: " + family.getRelation("beautiful "));
 
-        iceCream.setFlavors("hazelnut",0);
+        iceCream.setFlavors("hazelnut", 0);
         System.out.println(iceCream.getFlavors()[0]);
 
         score.setScore(25);
